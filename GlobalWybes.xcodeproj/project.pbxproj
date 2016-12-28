@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250343AD1E13E443000F7F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250343AC1E13E443000F7F8B /* AppDelegate.swift */; };
+		250343AF1E13E443000F7F8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250343AE1E13E443000F7F8B /* ViewController.swift */; };
+		250343B21E13E443000F7F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250343B01E13E443000F7F8B /* Main.storyboard */; };
+		250343B51E13E443000F7F8B /* GlobalWybes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 250343B31E13E443000F7F8B /* GlobalWybes.xcdatamodeld */; };
+		250343B71E13E443000F7F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250343B61E13E443000F7F8B /* Assets.xcassets */; };
+		250343BA1E13E443000F7F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250343B81E13E443000F7F8B /* LaunchScreen.storyboard */; };
+		250343C51E13E443000F7F8B /* GlobalWybesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250343C41E13E443000F7F8B /* GlobalWybesTests.swift */; };
+		250343D01E13E443000F7F8B /* GlobalWybesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250343CF1E13E443000F7F8B /* GlobalWybesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		250343C11E13E443000F7F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250343A11E13E442000F7F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250343A81E13E442000F7F8B;
+			remoteInfo = GlobalWybes;
+		};
+		250343CC1E13E443000F7F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250343A11E13E442000F7F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250343A81E13E442000F7F8B;
+			remoteInfo = GlobalWybes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250343A91E13E443000F7F8B /* GlobalWybes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlobalWybes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250343AC1E13E443000F7F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		250343AE1E13E443000F7F8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		250343B11E13E443000F7F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		250343B41E13E443000F7F8B /* GlobalWybes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GlobalWybes.xcdatamodel; sourceTree = "<group>"; };
+		250343B61E13E443000F7F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250343B91E13E443000F7F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		250343BB1E13E443000F7F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250343C01E13E443000F7F8B /* GlobalWybesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalWybesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		250343C41E13E443000F7F8B /* GlobalWybesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalWybesTests.swift; sourceTree = "<group>"; };
+		250343C61E13E443000F7F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250343CB1E13E443000F7F8B /* GlobalWybesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalWybesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		250343CF1E13E443000F7F8B /* GlobalWybesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalWybesUITests.swift; sourceTree = "<group>"; };
+		250343D11E13E443000F7F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250343A61E13E442000F7F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343BD1E13E443000F7F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343C81E13E443000F7F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250343A01E13E442000F7F8B = {
+			isa = PBXGroup;
+			children = (
+				250343AB1E13E443000F7F8B /* GlobalWybes */,
+				250343C31E13E443000F7F8B /* GlobalWybesTests */,
+				250343CE1E13E443000F7F8B /* GlobalWybesUITests */,
+				250343AA1E13E443000F7F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		250343AA1E13E443000F7F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250343A91E13E443000F7F8B /* GlobalWybes.app */,
+				250343C01E13E443000F7F8B /* GlobalWybesTests.xctest */,
+				250343CB1E13E443000F7F8B /* GlobalWybesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250343AB1E13E443000F7F8B /* GlobalWybes */ = {
+			isa = PBXGroup;
+			children = (
+				250343AC1E13E443000F7F8B /* AppDelegate.swift */,
+				250343AE1E13E443000F7F8B /* ViewController.swift */,
+				250343B01E13E443000F7F8B /* Main.storyboard */,
+				250343B61E13E443000F7F8B /* Assets.xcassets */,
+				250343B81E13E443000F7F8B /* LaunchScreen.storyboard */,
+				250343BB1E13E443000F7F8B /* Info.plist */,
+				250343B31E13E443000F7F8B /* GlobalWybes.xcdatamodeld */,
+			);
+			path = GlobalWybes;
+			sourceTree = "<group>";
+		};
+		250343C31E13E443000F7F8B /* GlobalWybesTests */ = {
+			isa = PBXGroup;
+			children = (
+				250343C41E13E443000F7F8B /* GlobalWybesTests.swift */,
+				250343C61E13E443000F7F8B /* Info.plist */,
+			);
+			path = GlobalWybesTests;
+			sourceTree = "<group>";
+		};
+		250343CE1E13E443000F7F8B /* GlobalWybesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				250343CF1E13E443000F7F8B /* GlobalWybesUITests.swift */,
+				250343D11E13E443000F7F8B /* Info.plist */,
+			);
+			path = GlobalWybesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250343A81E13E442000F7F8B /* GlobalWybes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250343D41E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybes" */;
+			buildPhases = (
+				250343A51E13E442000F7F8B /* Sources */,
+				250343A61E13E442000F7F8B /* Frameworks */,
+				250343A71E13E442000F7F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlobalWybes;
+			productName = GlobalWybes;
+			productReference = 250343A91E13E443000F7F8B /* GlobalWybes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		250343BF1E13E443000F7F8B /* GlobalWybesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250343D71E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybesTests" */;
+			buildPhases = (
+				250343BC1E13E443000F7F8B /* Sources */,
+				250343BD1E13E443000F7F8B /* Frameworks */,
+				250343BE1E13E443000F7F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250343C21E13E443000F7F8B /* PBXTargetDependency */,
+			);
+			name = GlobalWybesTests;
+			productName = GlobalWybesTests;
+			productReference = 250343C01E13E443000F7F8B /* GlobalWybesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		250343CA1E13E443000F7F8B /* GlobalWybesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250343DA1E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybesUITests" */;
+			buildPhases = (
+				250343C71E13E443000F7F8B /* Sources */,
+				250343C81E13E443000F7F8B /* Frameworks */,
+				250343C91E13E443000F7F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250343CD1E13E443000F7F8B /* PBXTargetDependency */,
+			);
+			name = GlobalWybesUITests;
+			productName = GlobalWybesUITests;
+			productReference = 250343CB1E13E443000F7F8B /* GlobalWybesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250343A11E13E442000F7F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = gis;
+				TargetAttributes = {
+					250343A81E13E442000F7F8B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					250343BF1E13E443000F7F8B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 250343A81E13E442000F7F8B;
+					};
+					250343CA1E13E443000F7F8B = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 250343A81E13E442000F7F8B;
+					};
+				};
+			};
+			buildConfigurationList = 250343A41E13E442000F7F8B /* Build configuration list for PBXProject "GlobalWybes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 250343A01E13E442000F7F8B;
+			productRefGroup = 250343AA1E13E443000F7F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250343A81E13E442000F7F8B /* GlobalWybes */,
+				250343BF1E13E443000F7F8B /* GlobalWybesTests */,
+				250343CA1E13E443000F7F8B /* GlobalWybesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250343A71E13E442000F7F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250343BA1E13E443000F7F8B /* LaunchScreen.storyboard in Resources */,
+				250343B71E13E443000F7F8B /* Assets.xcassets in Resources */,
+				250343B21E13E443000F7F8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343BE1E13E443000F7F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343C91E13E443000F7F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250343A51E13E442000F7F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250343AF1E13E443000F7F8B /* ViewController.swift in Sources */,
+				250343AD1E13E443000F7F8B /* AppDelegate.swift in Sources */,
+				250343B51E13E443000F7F8B /* GlobalWybes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343BC1E13E443000F7F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250343C51E13E443000F7F8B /* GlobalWybesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250343C71E13E443000F7F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250343D01E13E443000F7F8B /* GlobalWybesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250343C21E13E443000F7F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250343A81E13E442000F7F8B /* GlobalWybes */;
+			targetProxy = 250343C11E13E443000F7F8B /* PBXContainerItemProxy */;
+		};
+		250343CD1E13E443000F7F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250343A81E13E442000F7F8B /* GlobalWybes */;
+			targetProxy = 250343CC1E13E443000F7F8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		250343B01E13E443000F7F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250343B11E13E443000F7F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		250343B81E13E443000F7F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250343B91E13E443000F7F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250343D21E13E443000F7F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		250343D31E13E443000F7F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		250343D51E13E443000F7F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GlobalWybes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		250343D61E13E443000F7F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GlobalWybes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		250343D81E13E443000F7F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GlobalWybesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalWybes.app/GlobalWybes";
+			};
+			name = Debug;
+		};
+		250343D91E13E443000F7F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GlobalWybesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlobalWybes.app/GlobalWybes";
+			};
+			name = Release;
+		};
+		250343DB1E13E443000F7F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GlobalWybesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GlobalWybes;
+			};
+			name = Debug;
+		};
+		250343DC1E13E443000F7F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GlobalWybesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gis.GlobalWybesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GlobalWybes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250343A41E13E442000F7F8B /* Build configuration list for PBXProject "GlobalWybes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250343D21E13E443000F7F8B /* Debug */,
+				250343D31E13E443000F7F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250343D41E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250343D51E13E443000F7F8B /* Debug */,
+				250343D61E13E443000F7F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		250343D71E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250343D81E13E443000F7F8B /* Debug */,
+				250343D91E13E443000F7F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		250343DA1E13E443000F7F8B /* Build configuration list for PBXNativeTarget "GlobalWybesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250343DB1E13E443000F7F8B /* Debug */,
+				250343DC1E13E443000F7F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		250343B31E13E443000F7F8B /* GlobalWybes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				250343B41E13E443000F7F8B /* GlobalWybes.xcdatamodel */,
+			);
+			currentVersion = 250343B41E13E443000F7F8B /* GlobalWybes.xcdatamodel */;
+			path = GlobalWybes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 250343A11E13E442000F7F8B /* Project object */;
+}
